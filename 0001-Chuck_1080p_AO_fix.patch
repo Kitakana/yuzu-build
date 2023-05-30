@@ -1,3 +1,12 @@
+From e3e020e8ed26f4fd70276e9a40ad3d8eee376aa1 Mon Sep 17 00:00:00 2001
+From: chuch <chuck@user.reddit.com>
+Date: Tue, 30 May 2023 09:33:53 +0800
+Subject: [PATCH] Chuck AO fix
+
+---
+ src/video_core/texture_cache/image_info.cpp | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
 diff --git a/src/video_core/texture_cache/image_info.cpp b/src/video_core/texture_cache/image_info.cpp
 index e8ddde691..231adae7c 100644
 --- a/src/video_core/texture_cache/image_info.cpp
@@ -30,3 +39,6 @@ index e8ddde691..231adae7c 100644
      }
  }
  
+-- 
+2.25.1
+
